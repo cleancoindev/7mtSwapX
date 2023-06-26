@@ -32,7 +32,7 @@ const { chains, provider } = configureChains(
 );
 
 const { connectors } = getDefaultWallets({
-    appName: "Autopay",
+    appName: "7MTpay",
     chains,
 });
 
@@ -66,7 +66,7 @@ const Layout = ({ children }) => {
                 chains={chains}>
                 <AppProvider>
                     <Head>
-                        <title>Autopay - Zap</title>
+                        <title>7MTpay - 7MT-Zap</title>
                         <link rel="icon" href="/favicon.ico" />
                         <link rel="preconnect" href="https://fonts.googleapis.com" />
                         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
